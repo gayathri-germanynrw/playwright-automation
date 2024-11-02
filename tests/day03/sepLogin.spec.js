@@ -15,5 +15,9 @@ test('SEP Login', async ({ page }) => {
     await page.waitForTimeout(5000);
 
     expect(await page.title()).toContain("Checkout");
+
+    
+
+
   
 });
