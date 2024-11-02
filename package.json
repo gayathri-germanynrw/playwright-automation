@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "tests": "npx playwright test",
-    "test:specific" :"npx playwright test --grep file-upload-download.test.js",
+    "test:specific" :"npx playwright test --grep sepLogin.spec.js",
     "test:tag" :"npx playwright test --grep @tagname",
     "report": "npx playwright show-report"
   },
