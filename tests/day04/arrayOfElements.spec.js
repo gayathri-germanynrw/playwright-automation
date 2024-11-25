@@ -32,6 +32,10 @@ test.describe("Test Group", () => {
   });
 
   test("Verify that each of the 50 link elements within the <ul> element has a valid `href` attribute", async ({page,}) => {
+    for(let element of elements) {
+      let href=await element.getAttribute("href");
+      expect(href).toBeTruthy();
+    }
     /*
     for (let element of elements) {
       let href = await element.getAttribute("href");
