@@ -1,0 +1,28 @@
+Playwright Day06
+
+Topics:
+	Running playwright with Jenkins
+		Public repo
+		Private Repo
+		Environment variables
+		Plugins
+		Global Properties
+
+
+
+Next Class: (3 hours Video)
+	Project Implementation
+
+
+Plugins that we have installed on jenkins:
+	NodeJS
+	HTML Publisher
+	Allure
+	Cucumber reports
+	EnvInject API
+	Environment InjectorVersion
+
+
+
+Tools that we installed on Jenkins:
+	NodeJS
